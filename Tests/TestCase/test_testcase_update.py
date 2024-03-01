@@ -13,6 +13,7 @@ def create_case_for_testing_via_ui(desktop_app_auth):
     desktop_app_auth.test_cases_page.create_test(test_name, desc_name)
     desktop_app_auth.navigate_to('Test Cases')
 
+
 @pytest.fixture()
 def create_case_for_testing_via_api(get_web_services):
     get_web_services.create_testcase_post('API test', desc_name)

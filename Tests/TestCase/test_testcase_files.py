@@ -8,17 +8,6 @@ def test_download_testcase(desktop_app_auth):
     # compare function
     # delete downloaded file
 
-# example if use Python
-# desktop_app_auth.goto('/tests/')
-# with desktop_app_auth.page.expect_download() as d_file:
-#     desktop_app_auth.test_cases_page.click_on_download_button()
-# f_url = d_file.value.url
-# print(d_file.value.path())
-# desktop_app_auth.page.wait_for_timeout(4000)
-# current_working_dir = os.getcwd()
-# file_path = os.path.join(current_working_dir, "./downloads/file.csv")
-# d_file.value.save_as(file_path)
-
 
 @allure.step('User can upload file')
 def test_upload_testcase(desktop_app_auth):
