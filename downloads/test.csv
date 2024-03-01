@@ -1,0 +1,15 @@
+summary,description
+Successfull registration check,"set 
+user like alice,
+email like aaa@bbb.com,
+password like Qamania123"
+fail password registration check,set password qwerty
+fail empty form registration check,leave form empty
+successfull login check,test registered user can login
+Check Test Cases list,
+Check new test,
+Check update test,
+Check pass test,
+Check fail test,
+Check delete test,
+test_upload_summary,test_upload_desc
